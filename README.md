@@ -5,7 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![Screenshot (152)](https://github.com/pvsvibhin/AdmitKard-OTP/assets/89697512/3017df86-69be-4395-8642-8ac2e3f36eca)
 
-![Screenshot (153)](https://github.com/pvsvibhin/AdmitKard-OTP/assets/89697512/138aa152-a4d6-43ff-84ff-a0af2357c284)
+
+![Screenshot (155)](https://github.com/pvsvibhin/AdmitKard-OTP/assets/89697512/17b7f647-cb11-4a55-ac7d-fbab7d58b129)
+
 
 ![Screenshot (154)](https://github.com/pvsvibhin/AdmitKard-OTP/assets/89697512/96817dc6-2183-4933-b9cc-8fc200e53a2a)
 
