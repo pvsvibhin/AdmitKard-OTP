@@ -1,0 +1,179 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.logindiv {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.main-heading {
+  font-size: 30px;
+  font-weight: 500;
+}
+.main-para {
+  font-size: 20px;
+  color: gray;
+}
+.sub-para {
+  font-size: 15px;
+  color: gray;
+  margin-top: 20px;
+}
+
+.logindiv ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 350px;
+  height: 100vh;
+  border: 2px solid black;
+  user-select: none;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logindiv ul li {
+  padding: 5px;
+}
+.logindiv li:nth-child(1) {
+  margin-top: 50px;
+}
+.logindiv li:nth-child(2) {
+  height: 40%;
+  margin-top: 60px;
+}
+.logindiv li:nth-child(3) {
+  height: 10%;
+  margin-top: 40px;
+}
+.image {
+  margin-top: 10px;
+  width: 95%;
+  height: 80%;
+  border-radius: 20px;
+  align-self: center;
+}
+.img2 {
+  width: 80%;
+  height: 98%;
+}
+.btn {
+  cursor: pointer;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  background-color: rgb(220, 159, 37);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  height: 50px;
+  width: 200px;
+}
+
+.dropcode {
+  width: 110px;
+  padding: 10px;
+  outline: none;
+  border-right: none;
+  font-size: 0.9em;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.input {
+  width: 200px;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1em;
+  box-shadow: none;
+  border: 2px solid rgb(220, 159, 37);
+  margin-top: 20px;
+}
+
+.sub-para2 {
+  font-weight: bold;
+}
+
+.changemob {
+  color: green;
+}
+.changemob:hover {
+  color: red;
+}
+.optv {
+  width: 20px;
+  margin: 10px;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1em;
+  box-shadow: none;
+  border: 2px solid black;
+  text-align: center;
+}
+.logindiv2 li:nth-child(3) {
+  margin-top: 0px;
+}
+.logindiv2 li:nth-child(1) {
+  margin-top: 0px;
+}
+.logindiv2 li:nth-child(2) {
+  height: 40%;
+  margin-top: 0px;
+}
+
+.logindiv3 li:nth-child(3) {
+  margin-top: 0px;
+}
+.logindiv3 li:nth-child(1) {
+  margin-top: 0px;
+}
+.logindiv3 li:nth-child(2) {
+  height: 30%;
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 340px) {
+  .logindiv ul {
+    width: 100vw;
+    font-size: 2vw;
+    padding: 0;
+    margin: 0;
+  }
+  .logindiv {
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (min-height: 700px) {
+  .logindiv ul {
+    height: 700px;
+  }
+}
+@media only screen and (max-height: 580px) {
+  .logindiv ul {
+    height: 90vh;
+    font-size: 2vh;
+  }
+  .btn {
+    margin-top: -5vh;
+  }
+}
